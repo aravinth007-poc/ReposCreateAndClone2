@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<testcases>
+  <case>
+    <ItemsCount>4</ItemsCount>
+    <Items>
+      <Value>4</Value>
+      <Value>8</Value>
+      <Value>12</Value>
+      <Value>4</Value>
+    </Items>
+    <Index>2</Index>
+    <Balance>14</Balance>
+    <ExpectedOutput>6</ExpectedOutput>
+  </case>
+</testcases>
