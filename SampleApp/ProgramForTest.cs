@@ -23,7 +23,15 @@ namespace SampleApp
 
         public void bonAppetit(List<int> bill, int k, int b)
         {
-            //Code goes here...
+            long individualTotal = (bill.Sum(x => x)) / 2;
+            if ((individualTotal - (bill[k] / 2)) == b)
+            {
+                Console.WriteLine("Bon Appetit");
+            }
+            else
+            {
+                Console.WriteLine(bill[k] / 2);
+            }
         }
 
     }
